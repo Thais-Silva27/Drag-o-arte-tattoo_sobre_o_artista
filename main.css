@@ -1,0 +1,312 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    }
+
+    h1 {
+        font-family:"Macondo", cursive;
+    }
+
+
+    header,
+    section h2,
+    section h3,
+    form button {
+        font-family: sans-serif;
+        font-weight: normal;
+    }
+
+    body {
+        font-family: sans-serif;
+        background-color: rgb(27, 1, 1);
+        background-image:url(./images/dragao3\ -\ Copia.png);
+        background-repeat:no-repeat;
+        background-size: cover;
+    }
+
+    header{
+        padding: 25px;
+        background-color: rgb(138, 18, 10); 
+        color: rgb(241, 235, 233);
+        
+        
+    }
+
+   
+    header h1{
+        padding: 12px;
+        background-color: rgb(138, 18, 10); 
+        color: rgb(241, 235, 233);
+        
+    }
+
+    header nav li{
+        padding-top: 20px;
+        display:inline;
+        margin-top: 20px;
+        margin-left: 15px;
+        font: size 13px;
+    }
+
+    header h1, section h2{
+        padding-bottom: 15px;
+        font-weight: normal;
+    }
+
+    header nav li a{
+        color:rgb(247, 199, 195);
+        text-decoration: none;
+    }
+
+    .container {
+        max-width: 1280px;
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    .about-container {
+        display: flex;
+               
+    }
+
+     header .container
+    section.container {
+        display:flex;
+        align-items:center;
+        justify-content: space-between;
+
+    }
+
+    header > .container h1 {
+        padding-top: 50px;
+        font-size: 50px;
+    }
+
+            
+    section{
+        padding: 40px;
+        padding-bottom: 60px;
+        padding-top: 150px;
+    }
+
+    section.container{
+        display:flex;
+        align-items:flex-start;
+        justify-content: space-between;
+        }
+
+    section h2 {
+        margin-bottom: 13px;
+        color: rgb(206, 188, 187)
+        /*sobre o artista*/
+    }
+      
+    section p {
+        margin-bottom: 8px;
+         /*sobre o artista*/
+    }
+
+    .sobre-o-artista{
+        margin-right: 32px;
+    }
+
+    section{
+        color:rgb(250, 241, 241);
+         /*sobre o artista*/
+    }
+
+       
+    .social-links img{
+        height: 35px;
+        margin-top: 15px;  
+        
+              
+    }
+
+    .social-links li {
+        margin-left: 20px; 
+        display: inline; 
+    }
+
+    .social-links li a {
+       
+       margin-right: -10px;                      
+    }  
+    
+    .social-links li p {
+         text-align: right;                      
+     }  
+    
+    footer {
+        text-align: center;
+        background-color:rgb(138, 18, 10);
+        color:rgb(224, 183, 170);
+        padding: 16px ; 
+        padding-top: 40px;       
+    }
+
+    footer a {
+        
+        color:rgb(224, 183, 170);
+        padding: 16px 0;   
+        text-decoration: none;  
+    }
+
+    footer li {
+        list-style: none;
+        margin-left: 16px;
+    }
+
+    #imagem-sobre-o-artista{
+        max-width: 100%;
+        height: auto;
+        width: 400px;
+        margin-bottom: 30px;
+        
+    }   
+    
+    @media screen and (max-width: 768px){
+        header, h3 {
+            text-align: center;
+            padding-bottom: 12px;
+        }            
+    }
+
+    
+    @media screen and (max-width: 768px){
+        header .container {
+            padding: 10px 0;
+            padding-bottom: 9px;
+            padding-top: 5px;
+            display:block; 
+            justify-content:space-between;    
+            font-size: 12px;
+        }            
+    }
+
+    @media screen and(max-width: 768px){
+        #imagem-sobre-o-artista {
+            max-width: 50%;
+            height: 350px;
+            width: 400px;
+            margin-bottom: 10px; 
+            padding-bottom: 15px;
+           
+        }
+        
+    }
+
+    @media screen and (max-width: 768px) {
+        .about-container {
+          display: flex;
+          flex-direction: column;
+          align-items: center; /* Isso centralizará os elementos horizontalmente */
+          text-align: center;
+          margin-bottom: -300px;
+          margin-top: -100px;
+        }
+      }
+
+      @media screen and (max-width: 768px) {
+        .social-links img {
+            height: 18px;
+            align-items: center;
+            padding-left: 10px;
+            justify-content: center;
+            margin-right: -100px;
+                  
+        }
+      }
+
+      
+      @media screen and (max-width: 768px) {
+        .social-links {
+            height: 18px;
+            align-items: center;            
+            margin-right: -80px;
+            
+                  
+        }
+      }
+
+      @media screen and (max-width: 768px) {
+        .social-links li {
+            height: 18px;
+            align-items: center;            
+            margin-right: -10px;
+                              
+        }
+      }
+
+
+
+
+
+      @media screen and (max-width: 768px) {
+        body {
+            background-image:url(./images/dragao3\ -\ Copia.png);
+            background-repeat:no-repeat;
+            background-size:150%; /* A imagem cobrirá todo o corpo */
+            background-position: bottom center;  
+            margin: 0; /* Remova margens do corpo para cobrir toda a tela */
+            padding: 0; /* Remova preenchimento do corpo para cobrir toda a tela */                  
+        }
+        
+        }
+
+                   
+      @media screen and (max-width: 768px) {
+        footer {
+        padding: 16px 0;   
+        text-decoration: none;  
+        background-color:rgb(138, 18, 10);
+        font-size: 12px;
+                }
+                
+        }
+      
+
+        .contact{
+            text-align: center;
+            margin-right: 900px;
+            margin-bottom: 10px;
+        }
+
+
+
+
+     @media screen and (max-width: 768px){
+        .contact h3 {
+        text-align: center;
+        font-size: 12px;
+        margin-right: -290px;
+        }
+    }
+       
+    .contact_dress {
+        text-align:center;
+         margin-left: -60px;
+         padding-top: 30px;
+         font-size: 14px;
+         margin-right: -20px;
+    }
+
+    @media screen and (max-width: 768px){
+        .contact_dress{
+        text-align:center;
+         margin-left: -60px;
+         padding-top: 30px;
+         font-size: 11px;
+         margin-right: -355px;
+        }
+    }
+
+    @media screen and (max-width: 768px){
+        header > .container h1 {
+            padding-top: 20px;
+            font-size: 30px;
+        }
+    }
+    
+   
